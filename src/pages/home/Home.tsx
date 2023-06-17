@@ -1,5 +1,9 @@
+import { Ping } from "./Ping";
+import { MintNFT } from "./MintNFT"
+
 function Home() {
-  return <div>Home page</div>;
+  return <MintNFT/>;
+  
 }
 
 export { Home };
