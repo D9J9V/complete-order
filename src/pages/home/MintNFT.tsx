@@ -20,7 +20,7 @@ function MintNFT() {
 
   const message: any = {
     destination: programIDNFT, // programId
-    payload: {mint:[2,{"name":"Add name","description":"Add Description","media":"Add media","reference":"Add reference"}]}, // Add your data
+    payload: {mint:[2,{"name":"Add name","description":"local controller: 4FizBsPF7TPjww7fMKN8Akrnkp5cTfZ4Wt1tXdHt4rEbFS3Q remote controller: 4FLuhfypbrwpznu3imYqR8Ne56XHBTtNkqyG1AMgmkBUszGc","media":"Add media","reference":"Add reference"}]}, // Add your data
     gasLimit: 2099819245,
     value: 0,
     
