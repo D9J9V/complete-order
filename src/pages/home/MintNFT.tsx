@@ -1,7 +1,6 @@
 import { useAccount, useApi, useAlert } from "@gear-js/react-hooks";
 import { web3FromSource } from "@polkadot/extension-dapp";
 import { decodeAddress, getProgramMetadata } from "@gear-js/api";
-import { Button } from "@gear-js/ui";
 
 function MintNFT() {
   const alert = useAlert();
